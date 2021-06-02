@@ -1,0 +1,25 @@
+Archivos
+Este carpeta consta de dos clases ,y sus respectivos guide.
+	-depre.fig
+	-depre.m
+	-venta2.fig
+	-venta2.m
+
+Bases de datos
+
+La base es de un paciente con depresion,dura aproximadamentes 8 minutos,con una Frecuencia de muestreo de 500.
+En una parte esta absolutamente toda la data como la descargarmos,y en la otra parte ,se encuentra almacenado
+exclusivamente los canales con los que trabajamos,
+Cabe mencionar que es la misma data pero en la una consta de 66 canales,y la otra solo de los 19 que tomamos,
+para   el mapero del cerebro.
+
+	-507_Depression_Rest.mat(consta todos los canales de la señal).
+	-Depression_Prueba.mat(consta de los 19 canales que usamos para graficarlos y ordenanos segun el mapeo del cerebro).
+
+Grafico
+La clase que nos permite graficar los cerebros se llama topoplotIndie.m la cual toma como parametros los valores de la data,
+los canales exclusivamente que queremos graficar,y la forma en que quiero que se representen esos canales(números,letras,puntos).
+
+Para Iniciar
+El programa principal se encuentra en depre.m, el cual ya se encuentra enlazado con el resto del código, en esta ventana tenemos 
+en una barra de menú con la opción de Mapa Topográfico del cerebro, el cual nos dará paso hacia la visualización del cerebro.
